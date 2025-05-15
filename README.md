@@ -51,6 +51,21 @@ pytest -v
 │   │   └── rentaAuto.py             # Lógica de validación de renta de auto
 │   │   └── test_rentaAuto_hypo.py # Pruebas con Hypothesis de renta de auto
 │   │   └── test_rentaAuto.py   # Pruebas con Pytest para renta
+└── practica2/
+│   └── descuento/
+│   │   └── descuentos.py       # Aplicar de descuento en base al tipo de cliente y monto de compra
+│   │   └── test_operaciones_para.py # Pruebas con Parametrize para probar descuentos
+│   └── passwd/
+│   │   └── passwords.py             # Lógica de validación de contraseña segura
+│   │   └── test_passwords_hypo.py   # Pruebas con Hypothesis para validar contraseñas
+│   └── prestamo/
+│   │   └── prestamos.py             # Lógica de validación de préstamo
+│   │   └── test_prestamos_hypo.py   # Pruebas con Hypothesis para validar préstamos
+│   └── triangulo/
+│   │   └── triangulos.py             # Lógica de validación de triángulos ingresando sus lados
+│   │   └── test_triangulos_hypo.py   # Pruebas con Hypothesis para validar triángulos
+│   │   └── test_triangulos.py        # Pruebas con Pytest para validar triángulos
+│   |   └── test_triangulos_parametrize.py # Pruebas con Parametrize para validar triángulos
 └── README.md
 ```
 ## 🧪 Tipos de pruebas implementadas
