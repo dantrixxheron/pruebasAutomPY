@@ -4,13 +4,29 @@ Este repositorio contiene dos ejercicios sencillos para practicar pruebas automa
 
 1. **Operaciones matemáticas básicas** (`suma`, `resta`, `multiplicación`, `división`)
 2. **Validación de renta de auto** en función de la edad del usuario.
+3. **Descuento de una tienda** bajo ciertas condiciones.
+4. **Validación de contraseña segura** según el contenido de esta.
+5. **Otorgar préstamos** según el sueldo y otras condicionantes.
+6. **Validación y corroboración del tipo de triángulo** según las medidas de sus lados.
 
 ## 🧠 ¿Qué se prueba?
 ### operaciones.py
 En el módulo `operaciones.py`, se comprueba que los resultados de las funciones básicas sean correctos para una amplia gama de valores, incluyendo bordes y casos negativos.
 
 ### rentaAuto.py
-En rentaAuto.py, se verifica si un usuario puede rentar un auto y si se le aplica una tarifa extra, según su edad.
+En `rentaAuto.py`, se verifica si un usuario puede rentar un auto y si se le aplica una tarifa extra, según su edad.
+
+### descuento.py
+En `descuento.py`, se verifica la cantidad de descuento a aplicar (si este fuera acumulable) dependiendo del nivel de membresía del cliente y cantidad a comprar.
+
+### passwords.py
+El código de `passwords.py` se comprueba si la contraseña es segura bajo ciertos parámetros: si contiene números, letras mayúsculas y minúsculas, algún caracter especial y la longitud entre 8 a 16 caracteres.
+
+### prestamos.py
+En este código se hace la solución a si a una persona se le cederá un crédito bajo ciertos indicadores: su salario, historial de crédito y de pagos.
+
+### triangulos.py
+En este código en base a tres medidas ingresadas se reconoce si es un triángulo y qué clase de triángulo es (escaleno, equilátero e isóseles).
 
 ## 🔧 Requisitos de instalación
 
